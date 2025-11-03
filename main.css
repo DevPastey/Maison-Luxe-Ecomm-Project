@@ -21,7 +21,7 @@ body {
   
 }
 html:focus-within {
-  scroll-behaviour: smooth !important;
+  scroll-behavior: smooth !important;
   transition: scroll 2s ease;
 }
 /* --------------- Navbar ---------------- */
@@ -275,3 +275,7 @@ html:focus-within {
 }
 
 /* --------------- End of Cart ---------------- */
+
+html {
+  scroll-behavior: smooth;
+}
